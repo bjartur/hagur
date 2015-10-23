@@ -1,0 +1,1 @@
+Eigiðfé eftir heildarárstekju tíundum

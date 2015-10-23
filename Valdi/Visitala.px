@@ -1,0 +1,43 @@
+CHARSET="ANSI";
+AXIS-VERSION="2010";
+CODEPAGE="Windows-1252";
+LANGUAGE="is";
+CREATION-DATE="20150825 14:40";
+DECIMALS=1;
+SHOWDECIMALS=1;
+MATRIX="VIS01000";
+COPYRIGHT=YES;
+SUBJECT-CODE="VIS01";
+SUBJECT-AREA="Vísitala neysluverðs";
+DESCRIPTION="Breytingar á vísitölu neysluverðs frá 1988";
+TITLE="Vísitala neysluverðs með Ár, Mánuður, Vísitala og Breytingar";
+CONTENTS="Vísitala neysluverðs";
+STUB="Ár","Mánuður";
+HEADING="Vísitala","Breytingar";
+VALUES("Ár")="1998","1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013";
+VALUES("Mánuður")="Meðaltal ársins";
+VALUES("Vísitala")="Vísitala neysluverðs";
+VALUES("Breytingar")="Vísitala";
+LAST-UPDATED="20150827 09:00";
+UNITS="Vísitölur og hlutföll";
+REFPERIOD="1988-2015";
+NOTE="Grunnur maí 1988 = 100. Frá janúar 2008 miðast vísitalan við verðlag í að minnsta kosti vikutíma í kringum miðjan mánuð en fyrir þann tíma var vísitalan miðuð við verðlag tvo fyrstu virka daga hvers mánaðar.";
+DESCRIPTIONDEFAULT=YES;
+DATA=
+183.3 
+189.6 
+199.1 
+212.4 
+222.6 
+227.3 
+234.6 
+244.1 
+260.6 
+273.7 
+307.7 
+344.6 
+363.2 
+377.7 
+397.3 
+412.7 
+;

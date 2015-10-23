@@ -1,0 +1,90 @@
+Eftirfarandi þarf að fallvæða:
+
+	Alhæfa íbúðalánaskuldir vs ráðstöfunartekjur þ.a. heildarskuldir og eignir  virki líka - parameterisera svo þetta verði Eignastaða vs. ráðstöfunartekjur
+	
+	Alhæfa ráðstöfunartekjur aldurshópa/landshluta	yfir á annarskonar tekjur og gjöld 
+	
+	Alhæfa eignastöðu aldurshópa/landshluta
+		meira og minna komið í Fjarhagsstada eftir arum.R
+	
+	Alhæfa "íbúðalánaskuldir vs. ráðstöfunartekjur" í "eignastaða vs. ráðstöfunartekjur"
+
+Seinna:
+		
+	Alhæfa "eignastaða vs. ráðstöfunartekjur" yfir í "eignastaða vs. tekjur" 
+		
+	Alhæfa "tíundir" þ.a. það geta verið eignatíundir líka. (Önnur tafla) Þegar Magnús er búinn með APIið þá er hægt að alhæfa þetta.
+	
+	
+Höfum þá (1+1) + (1+1) + (1+1) gagnvirkar töflur :
+
+Tíundir 
+
+	allskyns breytur - tekjur,gjöld og eignastaða (taflan  úr  "Radstofunartekjur.R")
+			y-ás: valdar breytur, x-ás: ár,  gagnvirkni: valdar tíundir og valdar breytur 
+			
+	eignastaða vs. ráðstöfunartekjur
+			y-ás: valin eignarbreyta (einungis 1, t.d. heildarskuldir eða eigið fé)
+			x-ás: ár 
+			gagnvirkni: árin, slider
+	
+Aldurshópar
+
+	tekjur og gjöld  (taflan úr hagstofa3.0tekjuroggjold.R, hópar 1-10)
+	og
+	eignastaða (taflan úr "hagstofa.R", hópar 1-10)	
+	eftir árum
+			y-ás: valdar tekjur/gjöld og eignastöðu-breytur, 
+			x-ás: ár,  
+			gagnvirkni: valdir aldurshópar og valdar breytur 
+					
+		
+	eignastaða vs. ráðstöfunartekjur
+			y-ás: valin eignarbreyta (einungis 1, t.d. heildarskuldir eða eigið fé)
+			x-ás: ár 
+			gagnvirkni: árin, slider
+			
+Landshlutar
+
+	tekjur og gjöld  (taflan úr hagstofa3.0tekjuroggjold.R, hópar 16-17)
+				l
+			y-ás: valdar tekjur/gjöld-breytur, x-ás: ár,  gagnvirkni: valdar breytur 
+			
+	eignastaða eftir árum (taflan úr "hagstofa.R", hópar 16-17)
+	
+			y-ás: valdar eignastöðu-breytur, x-ás: ár,  gagnvirkni: valdar breytur 	
+		
+	eignastaða vs. ráðstöfunartekjur
+			y-ás: valin eignarbreyta (einungis 1, t.d. heildarskuldir eða eigið fé)
+			x-ás: ár 
+			gagnvirkni: árin, slider
+		
+		
+		
+Það sem komið er í 5. október vinnuskjal, í þessari röð, aðskilið með XXXX:
+
+#
+1	Ráðstöfunartekjur[m.a.] tíunda eftir árum - gagnvirkt fyrir tíundirnar
+2	Eigið fé aldurshópanna eftir árum
+3	Eigið fé, skuldir, eignir og tekjur fyrir landshlutana eftir árum 
+4	Íbúðalánaskuldir vs. ráðstöfunartekjur fyrir landshlutana 
+5	Íbúðalánaskuldir vs. ráðstöfunartekjur fyrir tíundir 
+6	Ráðstöfunartekjur aldurshópa eftir árum 
+7	Íbúðalánaskuldir vs. ráðstöfunartekjur fyrir aldurshópa 
+		
+		
+		
+		
+tíundataflan geymir bæði upplýsingar um eignir og tekjur 
+	Get teiknað hvað sem er (eigið fé, skuldir, skattar, ráðstöfunartekjur, ...) eftir árum fyrir tíundirnar m.þ.a. nota
+
+    medalX = medalTek(tiundir, "Breytan SEM SKOÐA SKAL!", "Fjoldiihop", 10)
+	tekjudreifing(medalX, mintiund, maxtiund, "Nafnið á dálkinum sem koma skal, fyrir grafið")
+	
+	
+
+hjá hópunum er þetta í 2 töflum.
+	ef það verða sameinaðar þá ætti að vera hægt að nota sömu aðferð og með tíundirnar til að skoða 
+		þ.e. medalTek og tekjudreifing 
+		
+Þegar landshlutar eru skoðaðir þá þarf ekki að takmarka sig við 3 breytur - mætti hafa 4 breytur því það eru bara 2 hopar sem bornir eru saman. 

@@ -1,0 +1,13 @@
+	Hagtölusjá
+
+Keyrið `framsetning.R` í þessari möppu sem inniheldur þá skrá, leyfið að keyra. Opnið jafnframt http://localhost:1337 í vafra. Þar er vefur með línuritum þeirra breyta sem valdar eru með tökkum á vefsíðunni. Línuritin uppfærast sjálfkrafa um leið og smellt er á takka.
+
+	R --no-save <framsetning.R
+
+Höfundar:
+	Viðmót:	Bjartur Thorlacius
+	Gröf:	Valdimar Ágúst Eggertsson
+	Gagnaöflun: Magnús Pálsson & Valdimar Ágúst Eggertsson
+	Samþætting: Bjartur Thorlacius
+
+Verkefni í Reiknigreind við Háskóla Íslands. Október 2015.
